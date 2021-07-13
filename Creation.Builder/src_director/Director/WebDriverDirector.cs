@@ -1,4 +1,3 @@
-using OpenQA.Selenium;
 using Studies.DesignPatterns.BuilderDirector.Builder;
 
 namespace Studies.DesignPatterns.BuilderDirector.Director

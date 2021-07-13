@@ -1,6 +1,4 @@
-﻿using System;
-using OpenQA.Selenium.Chrome;
-using Studies.DesignPatterns.BuilderDirector.Builder;
+﻿using Studies.DesignPatterns.BuilderDirector.Builder;
 using Studies.DesignPatterns.BuilderDirector.Director;
 
 namespace Studies.DesignPatterns.BuilderDirector
