@@ -5,17 +5,17 @@ namespace Studies.DesignPatterns.BuilderDirector
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Run()
         {
             var chromeBuilder = new ChromeDriverBuilder();
             var driverDirector = new WebDriverDirector(chromeBuilder);
-            driverDirector.MakeEdgeDriver();
+            driverDirector.MakeDriverToUseContainer();
             
             var chromeDriver = chromeBuilder.GetDriver();
 
             var edgeBuilder = new EdgeDriverBuilder();
             driverDirector = new WebDriverDirector(edgeBuilder);
-            driverDirector.MakeEdgeDriver();
+            driverDirector.MakeDefaultDriver();
 
             var edgeDriver = edgeBuilder.GetDriver();
         }
